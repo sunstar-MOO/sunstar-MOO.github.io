@@ -119,7 +119,6 @@ header .headeritems .burger {
 .intro .swiper-button-prev {
   color: #ffb6db;
   margin: 1.62rem;
-  font: 1rem;
 }
 
 .intro .intoduction {
@@ -200,6 +199,14 @@ header .headeritems .burger {
 }
 
 @media (max-width: 575px) {
+  body,
+  html {
+    font-size: 9pt;
+  }
+  h1,
+  h2 {
+    font-size: 1.682rem;
+  }
   .burger {
     z-index: 1000;
   }

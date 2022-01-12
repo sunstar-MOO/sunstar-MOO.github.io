@@ -7,6 +7,14 @@
   // }
 }
 @media (max-width: 575px) {
+  body,
+  html {
+    font-size: 9pt;
+  }
+  h1,
+  h2 {
+    font-size: 1.682rem;
+  }
   .burger {
     // position: fixed;
     // right: 10pt;
